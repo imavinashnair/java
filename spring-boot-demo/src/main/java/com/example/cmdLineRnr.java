@@ -19,7 +19,7 @@ public class cmdLineRnr implements CommandLineRunner {
 		customer.setId(1);
 		customer.setName("bmc");
 		customer.setContactNo("+91-22-8943367");
-		customer.setAddress("L.M Road, Borivali W");
+		customer.setAddress("L.M Road, Borivali West");
 		customerRepository.save(customer);
 	}
 }
